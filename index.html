@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Házená Česká Lípa | Oficiální web</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Inter:wght@400" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <img src="img/logo-ceskalipa.png" alt="Logo">
+            <span>HÁZENÁ <strong>ČESKÁ</strong> <strong>LÍPA</strong></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">DOMŮ</a></li>
+            <li><a href="aktuality.html">AKTUALITY</a></li>
+            <li><a href="tymy.html">TÝMY</a></li>
+            <li><a href="zapasy.html">ZÁPASY</a></li>
+            <li><a href="nabor.html">NÁBOR</a></li>
+            <li><a href="kontakt.html">KONTAKT</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero" style="background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('img/background-hero.jpg') no-repeat center center/cover;">
+        <div class="hero-content">
+            <span class="badge">SEZONA 25/26</span>
+            <h1 style="line-height: 1.3;">HÁZÍME <br> ZA LÍPU!</h1>
+            <p>Podpořte nás v boji o vítěztví. <br> Míč v ruce, lípa v srdci!</p>
+            <a href="zapasy.html" class="btn-main">NEJBLIŽŠÍ ZÁPAS ➔</a>
+        </div>
+
+        <div class="next-match-widget">
+            <div class="widget-header">PŘÍŠTÍ ZÁPAS</div>
+            <div class="match-teams">
+                <div class="team">
+                    <img src="img/logo-ceskalipa.png" alt="ČL">
+                    <p>Česká Lípa</p>
+                </div>
+                <div class="vs">VS</div>
+                <div class="team">
+                    <img src="img/logo-liberec.png" alt="SOK">
+                    <p>Handball Liberec</p>
+                </div>
+            </div>
+            <div class="countdown" id="timer">
+                <div><span>04</span><p>DNY</p></div>
+                <div><span>01</span><p>HOD</p></div>
+                <div><span>32</span><p>MIN</p></div>
+                <div><span>14</span><p>SEK</p></div>
+            </div>
+            <div class="match-info">
+                <p>📅 20. Června 2026 | 🕒 18:00</p>
+                <p>📍 Sportovní hala Česká Lípa</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="news-section">
+        <div class="section-header">
+            <h2>/ AKTUALITY</h2>
+            <a href="aktuality.html" class="link-all">VŠECHNY NOVINKY ➔</a>
+        </div>
+        <div class="news-grid">
+            <article class="news-card">
+                <div class="news-img">
+                    <span class="date-tag">10.03.2026</span>
+                    <img src="img/obrazek3.jpeg" alt="Zápas">
+                </div>
+                <div class="news-content">
+                    <h3>FANTASTICKÝ OBRAT V ZÁVĚRU!</h3>
+                    <p>Náš A-tým dokázal zvrátit nepříznivý vývoj a v posledních minutách vybojoval výhru.</p>
+                    <a href="clanek-obrat.html" class="read-more">ČÍST VÍCE ➔</a>
+                </div>
+            </article>
+            <article class="news-card">
+                <div class="news-img">
+                    <span class="date-tag">08.03.2026</span>
+                    <img src="img/obrazek1.jpeg" alt="Mládež">
+                </div>
+                <div class="news-content">
+                    <h3>MLÁDEŽNICKÝ TURNAJ SE BLÍŽÍ</h3>
+                    <p>O víkendu přivítáme v naší hale přes 20 týmů z celé republiky v kategorii dorostenců.</p>
+                    <a href="clanek-turnaj.html" class="read-more">ČÍST VÍCE ➔</a>
+                </div>
+            </article>
+            <article class="news-card">
+                <div class="news-img">
+                    <span class="date-tag">05.03.2026</span>
+                    <img src="img/dresy.jpeg" alt="Dresy">
+                </div>
+                <div class="news-content">
+                    <h3>NOVÉ DRESY PRO SEZÓNU 2026</h3>
+                    <p>Představujeme nové klubové dresy, které se vracejí k tradiční modro-žluté kombinaci.</p>
+                    <a href="clanek-treneri.html" class="read-more">ČÍST VÍCE ➔</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="last-result-section">
+        <div class="result-box">
+            <div class="league-tag">13. KOLO / 2.LIGA MUŽI</div>
+            <div class="score-row">
+                <div class="team-score">
+                    <img src="img/logo-ceskalipa.png" alt="Lípa">
+                    <span>ČESKÁ LÍPA</span>
+                </div>
+                <div class="score">28:25</div>
+                <div class="team-score">
+                    <img src="img/logo-nachod.png" alt="DUK">
+                    <span>NÁCHOD</span>
+                </div>
+            </div>
+            <div class="victory-tag">VÍTĚZSTVÍ</div>
+        </div>
+        
+        <div class="recruit-box">
+            <span class="badge">PŘIDEJ SE K NÁM!</span>
+            <h2>NÁBOR DO <br> KLUBU HČL</h2>
+            <p>Hledáme nové talenty pro ročníky 2012–2018. Přijď si vyzkoušet házenou a staň se součástí party!</p>
+            <a href="nabor.html" class="btn-dark">VÍCE INFORMACÍ ➔</a>
+        </div>
+    </section>
+
+    <section class="sponsors-section">
+        <div class="section-header">
+            <h2>/ PARTNEŘI KLUBU</h2>
+        </div>
+        <div class="sponsors-grid">
+            <div class="sponsor-item">
+                <img src="img/seposolar.png" alt="Sepo Solar">
+                <p>SEPO SOLAR</p>
+            </div>
+            <div class="sponsor-item">
+                <img src="img/ceskalipa.png" alt="Česká Lípa">
+                <p>MĚSTO ČESKÁ LÍPA</p>
+            </div>
+            <div class="sponsor-item">
+                <img src="img/libereckykraj.png" alt="Liberecký kraj">
+                <p>LIBERECKÝ KRAJ</p>
+            </div>
+            <div class="sponsor-item">
+                <img src="img/quint.png" alt="Quint">
+                <p>QUINT</p>
+            </div>
+            <div class="sponsor-item">
+                <img src="img/svazhazene.png" alt="Český svaz házené">
+                <p>ČESKÝ SVAZ HÁZENÉ</p>
+            </div>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>

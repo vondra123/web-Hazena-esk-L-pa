@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Týmy | Házená Česká Lípa</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="img/logo-ceskalipa.png" alt="Logo">
+            <span>HÁZENÁ <strong>ČESKÁ</strong> <strong>LÍPA</strong></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html"><strong>DOMŮ</strong></a></li>
+            <li><a href="index.html">AKTUALITY</a></li>
+            <li><a href="tymy.html" class="active">TÝMY</a></li>
+            <li><a href="zapasy.html">ZÁPASY</a></li>
+            <li><a href="nabor.html">NÁBOR</a></li>
+            <li><a href="kontakt.html">KONTAKT</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero-sub">
+        <div class="hero-content">
+            <span class="badge">NAŠI HRÁČI</span>
+            <h1>SOUPISKY TÝMŮ</h1>
+        </div>
+    </header>
+
+    <section class="team-page-section">
+        <div class="filter-container">
+            <button class="btn-filter active" onclick="loadPlayers('muzi')">A-TÝM MUŽI</button>
+            <button class="btn-filter" onclick="loadPlayers('dorost')">STARŠÍ DOROST</button>
+        </div>
+
+        <div class="player-grid" id="playerList">
+            <p>Načítám soupisku týmu...</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nábor | Házená Česká Lípa</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <img src="img/logo-ceskalipa.png" alt="Logo">
+            <span>HÁZENÁ <strong>ČESKÁ</strong> <strong>LÍPA</strong></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html"><strong>DOMŮ</strong></a></li>
+            <li><a href="aktuality.html">AKTUALITY</a></li>
+            <li><a href="tymy.html">TÝMY</a></li>
+            <li><a href="zapasy.html">ZÁPASY</a></li>
+            <li><a href="nabor.html" class="active">NÁBOR</a></li>
+            <li><a href="kontakt.html">KONTAKT</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero-sub">
+        <div class="hero-content">
+            <span class="badge">POĎ DO TOHO S NÁMI</span>
+            <h1>STAŇ SE ČLENEM KLUBU</h1>
+        </div>
+    </header>
+
+    <section class="news-section"> 
+        <div class="recruit-container" style="max-width: 1000px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start;">
+            
+            <div class="recruit-info-box" style="background: white; color: black; padding: 40px; border: 3px solid black; box-shadow: 10px 10px 0px #FFD700;">
+                <h2 style="font-family: 'Oswald'; font-size: 32px; margin-bottom: 20px; text-transform: uppercase;">Proč hrát za Lípu?</h2>
+                <p style="font-family: 'Inter'; line-height: 1.6; color: #444; margin-bottom: 20px;">
+                    Hledáme kluky a holky, kteří mají rádi pohyb, chtějí si najít skvělou partu kamarádů a zažít atmosféru opravdových zápasů. Házená je dynamický a všestranný sport, který rozvíjí rychlost, sílu i týmového ducha.
+                </p>
+
+                <h3 style="font-family: 'Oswald'; font-size: 22px; margin: 20px 0 10px 0;">Co u nás děti získají:</h3>
+                <ul style="margin-bottom: 30px; padding-left: 20px; font-family: 'Inter'; line-height: 1.8;">
+                    <li><strong>Špičkoví trenéři:</strong> Vedení pod licencovanými a zkušenými trenéry.</li>
+                    <li><strong>Skvělá parta:</strong> Přátelské prostředí a nové zážitky na hřišti i mimo něj.</li>
+                    <li><strong>Zápasy a turnaje:</strong> Pravidelné soutěže, klubová soustředění a akce.</li>
+                    <li><strong>Všestranný rozvoj:</strong> Zlepšení fyzické kondice, obratnosti a disciplíny.</li>
+                </ul>
+
+                <div style="background: #f9f9f9; padding: 20px; border-left: 5px solid #FFD700;">
+                    <h4 style="font-family: 'Oswald'; margin: 0 0 5px 0; font-size: 18px;">KDO MŮŽE PŘIJÍT?</h4>
+                    <p style="font-family: 'Inter'; margin-bottom: 15px;">Nábor probíhá celoročně pro děti ve věku <strong>od 6 do 12 let</strong> (přípravka a minižáci).</p>
+                    
+                    <h4 style="font-family: 'Oswald'; margin: 0 0 5px 0; font-size: 18px;">KDY A KDE TRÉNUJEME?</h4>
+                    <p style="font-family: 'Inter'; margin: 0;"><strong>Úterý a Čtvrtek:</strong> 16:00 - 17:30 (Městská sportovní hala)</p>
+                </div>
+
+                <h3 style="font-family: 'Oswald'; font-size: 22px; margin: 20px 0 10px 0;">Co si vzít na první trénink?</h3>
+                <p style="font-family: 'Inter'; line-height: 1.6; color: #444;">
+                    Stačí běžné sportovní oblečení do haly (tričko, kraťasy), čistá sálová obuv, která nedělá šmouhy, a láhev s pitím. První měsíc tréninků je pro všechny nováčky **zcela zdarma** na vyzkoušení!
+                </p>
+            </div>
+
+            <div class="recruit-form-box" style="background: #0f172a; color: white; padding: 40px; border: 3px solid #FFD700; box-shadow: 10px 10px 0px black;">
+                <h2 style="font-family: 'Oswald'; font-size: 32px; margin-bottom: 10px; text-transform: uppercase; color: #FFD700;">Máte zájem? Napište nám!</h2>
+                <p style="font-family: 'Inter'; color: #ccc; margin-bottom: 25px; font-size: 14px;">
+                    Vyplňte krátký formulář a náš šéftrenér mládeže se vám ozve s podrobnostmi o prvním tréninku.
+                </p>
+
+                <form id="naborovy-formular" action="#" method="POST" style="display: flex; flex-direction: column; gap: 15px;">
+                    <div>
+                        <label style="display: block; font-family: 'Oswald'; margin-bottom: 5px; font-size: 14px; letter-spacing: 0.5px;">JMÉNO A PŘÍJMENÍ DÍTĚTE</label>
+                        <input type="text" placeholder="např. Jan Novák" required style="width: 100%; padding: 12px; font-family: 'Inter'; border: 2px solid #334155; background: #1e293b; color: white; box-sizing: border-box;">
+                    </div>
+
+                    <div>
+                        <label style="display: block; font-family: 'Oswald'; margin-bottom: 5px; font-size: 14px; letter-spacing: 0.5px;">ROK NAROZENÍ DÍTĚTE</label>
+                        <input type="number" placeholder="např. 2017" required style="width: 100%; padding: 12px; font-family: 'Inter'; border: 2px solid #334155; background: #1e293b; color: white; box-sizing: border-box;">
+                    </div>
+
+                    <div>
+                        <label style="display: block; font-family: 'Oswald'; margin-bottom: 5px; font-size: 14px; letter-spacing: 0.5px;">JMÉNO RODIČE</label>
+                        <input type="text" placeholder="např. Petr Novák" required style="width: 100%; padding: 12px; font-family: 'Inter'; border: 2px solid #334155; background: #1e293b; color: white; box-sizing: border-box;">
+                    </div>
+
+                    <div>
+                        <label style="display: block; font-family: 'Oswald'; margin-bottom: 5px; font-size: 14px; letter-spacing: 0.5px;">E-MAIL</label>
+                        <input type="email" placeholder="vás@email.cz" required style="width: 100%; padding: 12px; font-family: 'Inter'; border: 2px solid #334155; background: #1e293b; color: white; box-sizing: border-box;">
+                    </div>
+
+                    <div>
+                        <label style="display: block; font-family: 'Oswald'; margin-bottom: 5px; font-size: 14px; letter-spacing: 0.5px;">TELEFONNÍ ČÍSLO</label>
+                        <input type="tel" placeholder="+420 123 456 789" required style="width: 100%; padding: 12px; font-family: 'Inter'; border: 2px solid #334155; background: #1e293b; color: white; box-sizing: border-box;">
+                    </div>
+
+                    <button type="submit" class="btn-submit">
+                        ODESLAT PŘIHLÁŠKU ➔
+                    </button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <footer style="padding: 40px; text-align: center; background: #111; color: white; font-family: 'Inter'; font-size: 14px;">
+        <p>&copy; 2026 HÁZENÁ ČESKÁ LÍPA. Všechna práva vyhrazena.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

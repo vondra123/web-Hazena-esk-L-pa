@@ -1,0 +1,25 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "number": 14,
+      "name": "JAN PETŘÍK",
+      "position": "Spojka",
+      "image": "https://via.placeholder.com/250x300?text=Petrik"
+    },
+    {
+      "id": 2,
+      "number": 8,
+      "name": "MAREK SOUKUP",
+      "position": "Pivot",
+      "image": "https://via.placeholder.com/250x300?text=Soukup"
+    },
+    {
+      "id": 3,
+      "number": 21,
+      "name": "TOMÁŠ KRAJČÍ",
+      "position": "Křídlo",
+      "image": "https://via.placeholder.com/250x300?text=Krajci"
+    }
+  ]
+}
