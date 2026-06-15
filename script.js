@@ -3,7 +3,7 @@
 // ==========================================
 const matchData = {
     opponent: "Liberec handball",
-    date: "2026-06-14T18:00:00" 
+    date: "2026-06-24T18:00:00" 
 };
 
 function updateCountdown() {
@@ -76,8 +76,6 @@ function loadPlayers(teamKey = 'muzi') {
     playerGrid.innerHTML = '';
 
     players.forEach(player => {
-        // Třídy player-card, player-number-badge a player-img-container 
-        // jsou provázané s CSS transitions pro plynulé hover efekty.
         playerGrid.innerHTML += `
             <div class="player-card">
                 <div class="player-number-badge">${player.number}</div>
